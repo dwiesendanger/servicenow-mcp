@@ -1,0 +1,27 @@
+# Source (compiled output is in dist/)
+src/
+
+# Tests & config
+dist/__tests__/
+coverage/
+.env
+.env.example
+tsconfig.json
+vitest.config.*
+
+# CI / repo files
+.github/
+.gitignore
+.npmignore
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.tgz
+*.log
